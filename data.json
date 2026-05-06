@@ -277,4 +277,88 @@
     "lng": 80.2550,
     "available": true
   }
+  ,
+{
+  "name": "GreenField Electric Services",
+  "service": "electrician",
+  "phone": "9880011223",
+  "rating": 4.5,
+  "lat": 13.1150,
+  "lng": 80.3050,
+  "available": true
+},
+{
+  "name": "Sunrise Electrical Works",
+  "service": "electrician",
+  "phone": "9790011223",
+  "rating": 4.2,
+  "lat": 13.0300,
+  "lng": 80.2100,
+  "available": false
+},
+{
+  "name": "MegaVolt Electricians",
+  "service": "electrician",
+  "phone": "9845511223",
+  "rating": 4.6,
+  "lat": 13.0950,
+  "lng": 80.2850,
+  "available": true
+},
+
+{
+  "name": "BluePipe Plumbing",
+  "service": "plumber",
+  "phone": "9345612345",
+  "rating": 4.3,
+  "lat": 13.0750,
+  "lng": 80.2500,
+  "available": true
+},
+{
+  "name": "RapidFlow Plumbers",
+  "service": "plumber",
+  "phone": "9003412345",
+  "rating": 4.1,
+  "lat": 13.0450,
+  "lng": 80.2300,
+  "available": false
+},
+{
+  "name": "AquaFix Experts",
+  "service": "plumber",
+  "phone": "9789812345",
+  "rating": 4.4,
+  "lat": 13.0850,
+  "lng": 80.2700,
+  "available": true
+},
+
+{
+  "name": "CoolCare AC Solutions",
+  "service": "ac repair",
+  "phone": "9123412345",
+  "rating": 4.5,
+  "lat": 13.0650,
+  "lng": 80.2450,
+  "available": true
+},
+{
+  "name": "AirFlow AC Experts",
+  "service": "ac repair",
+  "phone": "9567812345",
+  "rating": 4.2,
+  "lat": 13.0350,
+  "lng": 80.2150,
+  "available": false
+},
+{
+  "name": "CoolZone Technicians",
+  "service": "ac repair",
+  "phone": "9898712345",
+  "rating": 4.6,
+  "lat": 13.1000,
+  "lng": 80.2950,
+  "available": true
+}
 ]
