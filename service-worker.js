@@ -2,7 +2,7 @@
 // QUICKFIX 2.0 SERVICE WORKER
 // ============================
 
-const CACHE_NAME = "quickfix-v3";
+const CACHE_NAME = "quickfix-v4";
 
 // App Shell (static files)
 const STATIC_FILES = [
