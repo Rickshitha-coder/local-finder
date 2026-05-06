@@ -1,0 +1,300 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  padding-top: 70px;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(12px);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 25px;
+  z-index: 1000;
+}
+
+.logo {
+  margin: 0;
+  font-weight: 600;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #4dabf7;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1581578731548-c64695cc6952")
+              no-repeat center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.8)
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* CONTROLS */
+.controls {
+  margin-top: 20px;
+}
+
+.controls input,
+.controls select,
+.controls button {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  margin: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* INPUT */
+.controls input {
+  width: 220px;
+}
+
+/* BUTTON STYLE */
+.controls button {
+  background: linear-gradient(135deg, #0d6efd, #4dabf7);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  transform: scale(1.05);
+}
+
+/* ABOUT */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 750px;
+  margin: auto;
+}
+
+.about p {
+  color: #555;
+  margin-top: 10px;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+/* SECTION TITLE */
+.section-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  padding: 25px;
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* TEXT */
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+/* STATUS */
+.status {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.available {
+  color: #28a745;
+}
+
+.busy {
+  color: #dc3545;
+}
+
+/* BUTTONS */
+.card button {
+  margin-top: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* PRIMARY BUTTON */
+.card button:nth-child(1) {
+  background: #0d6efd;
+  color: white;
+}
+
+/* CALL BUTTON */
+.card button:nth-child(2) {
+  background: #28a745;
+  color: white;
+}
+
+/* WHATSAPP BUTTON */
+.card button:nth-child(3) {
+  background: #25d366;
+  color: white;
+}
+
+.card button:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* REQUEST SECTION */
+#requests {
+  padding-bottom: 40px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 18px;
+  background: #111;
+  color: white;
+  margin-top: 20px;
+}
+
+/* ANIMATION */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease forwards;
+}
+
+.delay {
+  animation-delay: 0.5s;
+}
+
+.delay2 {
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .controls input {
+    width: 100%;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
