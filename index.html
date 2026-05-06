@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickFix</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#111">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2 class="logo">QuickFix 🔧</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#requests">Requests</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1 class="fade-in">Find Trusted Local Services</h1>
+    <p class="fade-in delay">
+      Electricians, Plumbers, AC Repair — all in one place
+    </p>
+
+    <!-- CONTROLS -->
+    <div class="controls hero-controls fade-in delay2">
+      <input type="text" id="searchInput" placeholder="Search services...">
+
+      <select id="serviceFilter">
+        <option value="all">All Services</option>
+        <option value="electrician">Electrician</option>
+        <option value="plumber">Plumber</option>
+        <option value="ac repair">AC Repair</option>
+      </select>
+
+      <!-- NEW: LOCATION BUTTON -->
+      <button onclick="detectLocation()">📍 Use My Location</button>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About QuickFix</h2>
+  <p>
+    QuickFix helps you find reliable local service providers instantly.
+    No more searching through contacts or waiting for recommendations.
+  </p>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="feature-card fade-in">
+    🔍 <h3>Search Easily</h3>
+    <p>Find services quickly</p>
+  </div>
+
+  <div class="feature-card fade-in delay">
+    ⭐ <h3>Trusted Ratings</h3>
+    <p>Choose quality services</p>
+  </div>
+
+  <div class="feature-card fade-in delay2">
+    📍 <h3>Nearby Services</h3>
+    <p>Find services near you</p>
+  </div>
+
+  <div class="feature-card fade-in delay2">
+    📩 <h3>Request Service</h3>
+    <p>Save and track requests</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2 class="section-title">Available Services</h2>
+  <div id="serviceList" class="grid"></div>
+</section>
+
+<!-- REQUESTS (NEW SECTION) -->
+<section id="requests">
+  <h2 class="section-title">Your Requests</h2>
+  <div id="requestList" class="grid"></div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 QuickFix | Smart Local Services</p>
+</footer>
+
+<!-- SCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
