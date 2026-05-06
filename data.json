@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Sri Vinayaga Electricals",
+    "service": "electrician",
+    "phone": "9840012345",
+    "rating": 4.3,
+    "lat": 13.0827,
+    "lng": 80.2707,
+    "available": true
+  },
+  {
+    "name": "Smart Electric Works",
+    "service": "electrician",
+    "phone": "9090909090",
+    "rating": 4.4,
+    "lat": 13.0670,
+    "lng": 80.2500,
+    "available": false
+  },
+  {
+    "name": "Bright Spark Electric",
+    "service": "electrician",
+    "phone": "9444011122",
+    "rating": 4.6,
+    "lat": 13.0500,
+    "lng": 80.2300,
+    "available": true
+  },
+  {
+    "name": "PowerFix Electricians",
+    "service": "electrician",
+    "phone": "9841122233",
+    "rating": 4.5,
+    "lat": 13.0900,
+    "lng": 80.2800,
+    "available": true
+  },
+
+  {
+    "name": "Anbu Plumbing",
+    "service": "plumber",
+    "phone": "9876541230",
+    "rating": 4.1,
+    "lat": 13.0674,
+    "lng": 80.2376,
+    "available": true
+  },
+  {
+    "name": "Suresh Plumbing Works",
+    "service": "plumber",
+    "phone": "9884567890",
+    "rating": 4.3,
+    "lat": 13.0600,
+    "lng": 80.2200,
+    "available": false
+  },
+  {
+    "name": "Aqua Flow Plumbing",
+    "service": "plumber",
+    "phone": "9098765432",
+    "rating": 4.2,
+    "lat": 13.0800,
+    "lng": 80.2600,
+    "available": true
+  },
+  {
+    "name": "PipeCare Plumbing",
+    "service": "plumber",
+    "phone": "9500012345",
+    "rating": 4.5,
+    "lat": 13.0950,
+    "lng": 80.2750,
+    "available": true
+  },
+
+  {
+    "name": "Cool Tech AC Repair",
+    "service": "ac repair",
+    "phone": "9123456789",
+    "rating": 4.6,
+    "lat": 13.0500,
+    "lng": 80.2500,
+    "available": true
+  },
+  {
+    "name": "Chill Air AC Services",
+    "service": "ac repair",
+    "phone": "9360011223",
+    "rating": 4.5,
+    "lat": 13.0450,
+    "lng": 80.2400,
+    "available": false
+  },
+  {
+    "name": "Cool Breeze AC Repair",
+    "service": "ac repair",
+    "phone": "9845671234",
+    "rating": 4.3,
+    "lat": 13.0700,
+    "lng": 80.2550,
+    "available": true
+  },
+  {
+    "name": "Fresh Air Cooling",
+    "service": "ac repair",
+    "phone": "9001234567",
+    "rating": 4.6,
+    "lat": 13.0850,
+    "lng": 80.2650,
+    "available": true
+  },
+
+  {
+    "name": "Metro Electric Services",
+    "service": "electrician",
+    "phone": "9788888888",
+    "rating": 4.2,
+    "lat": 13.1000,
+    "lng": 80.2900,
+    "available": true
+  },
+  {
+    "name": "Urban Electric Care",
+    "service": "electrician",
+    "phone": "9551123456",
+    "rating": 4.1,
+    "lat": 13.0750,
+    "lng": 80.2450,
+    "available": true
+  },
+
+  {
+    "name": "Rapid Plumbing Solutions",
+    "service": "plumber",
+    "phone": "9445566778",
+    "rating": 4.3,
+    "lat": 13.0850,
+    "lng": 80.2700,
+    "available": true
+  },
+  {
+    "name": "Perfect Flow Plumbing",
+    "service": "plumber",
+    "phone": "9622334455",
+    "rating": 4.1,
+    "lat": 13.0950,
+    "lng": 80.2850,
+    "available": false
+  },
+
+  {
+    "name": "AirCare Technicians",
+    "service": "ac repair",
+    "phone": "9447788990",
+    "rating": 4.5,
+    "lat": 13.0600,
+    "lng": 80.2500,
+    "available": true
+  },
+  {
+    "name": "CoolFix AC Experts",
+    "service": "ac repair",
+    "phone": "9700011223",
+    "rating": 4.3,
+    "lat": 13.0720,
+    "lng": 80.2600,
+    "available": true
+  },
+  ,
+  {
+    "name": "Elite Electrical Solutions",
+    "service": "electrician",
+    "phone": "9677012345",
+    "rating": 4.4,
+    "lat": 13.1100,
+    "lng": 80.3000,
+    "available": true
+  },
+  {
+    "name": "HomeFix Electricians",
+    "service": "electrician",
+    "phone": "9000012345",
+    "rating": 4.2,
+    "lat": 13.0400,
+    "lng": 80.2100,
+    "available": false
+  },
+  {
+    "name": "City Light Electricals",
+    "service": "electrician",
+    "phone": "9789012345",
+    "rating": 4.0,
+    "lat": 13.0550,
+    "lng": 80.2250,
+    "available": true
+  },
+  {
+    "name": "Prime Electrical Care",
+    "service": "electrician",
+    "phone": "9666612345",
+    "rating": 4.5,
+    "lat": 13.1200,
+    "lng": 80.3100,
+    "available": true
+  },
+
+  {
+    "name": "FastFix Plumbing Services",
+    "service": "plumber",
+    "phone": "9345678901",
+    "rating": 4.4,
+    "lat": 13.0650,
+    "lng": 80.2400,
+    "available": true
+  },
+  {
+    "name": "City Drain Experts",
+    "service": "plumber",
+    "phone": "9786512345",
+    "rating": 4.0,
+    "lat": 13.0350,
+    "lng": 80.2000,
+    "available": false
+  },
+  {
+    "name": "Quick Pipe Fix",
+    "service": "plumber",
+    "phone": "9345012345",
+    "rating": 4.2,
+    "lat": 13.0850,
+    "lng": 80.2600,
+    "available": true
+  },
+  {
+    "name": "WaterLine Experts",
+    "service": "plumber",
+    "phone": "9789001122",
+    "rating": 4.4,
+    "lat": 13.1000,
+    "lng": 80.2900,
+    "available": true
+  },
+
+  {
+    "name": "Rapid AC Solutions",
+    "service": "ac repair",
+    "phone": "9787654321",
+    "rating": 4.4,
+    "lat": 13.0600,
+    "lng": 80.2450,
+    "available": true
+  },
+  {
+    "name": "Arctic Chill Services",
+    "service": "ac repair",
+    "phone": "9556677889",
+    "rating": 4.2,
+    "lat": 13.0300,
+    "lng": 80.1900,
+    "available": false
+  },
+  {
+    "name": "AC Master Service",
+    "service": "ac repair",
+    "phone": "9654321098",
+    "rating": 4.6,
+    "lat": 13.0950,
+    "lng": 80.2800,
+    "available": true
+  },
+  {
+    "name": "FreezeCool AC Works",
+    "service": "ac repair",
+    "phone": "9123001122",
+    "rating": 4.3,
+    "lat": 13.0700,
+    "lng": 80.2550,
+    "available": true
+  }
+]
