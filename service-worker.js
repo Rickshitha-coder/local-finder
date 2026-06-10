@@ -1,5 +1,5 @@
 
-const CACHE_NAME = "quickfix-v10";
+const CACHE_NAME = "quickfix-v11";
 
 // App Shell (static files)
 const STATIC_FILES = [
