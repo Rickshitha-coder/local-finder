@@ -1,8 +1,217 @@
 /* =========================================
+   1. BASE STYLES & TYPOGRAPHY
+   ========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* =========================================
+   2. NAVBAR
+   ========================================= */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: #111;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff9800; /* Vibrant Orange Accent */
+}
+
+/* =========================================
+   3. HERO SECTION
+   ========================================= */
+.hero {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* Dark modern background image (unsplash) */
+  background: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+  padding: 2rem 5%;
+  color: #fff;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.75); /* Darkens the image for text readability */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  width: 100%;
+}
+
+.hero-content h1 {
+  /* Fluid typography: scales dynamically between 2rem and 4rem based on screen width */
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+/* =========================================
+   4. INPUTS, BUTTONS & CONTROLS
+   ========================================= */
+.controls {
+  display: flex;
+  flex-wrap: wrap; /* Allows inputs to stack on smaller screens */
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+input, select, button {
+  padding: 14px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-family: inherit;
+}
+
+input {
+  flex: 1;
+  min-width: 250px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+
+select {
+  cursor: pointer;
+  background-color: #fff;
+  min-width: 150px;
+}
+
+button {
+  background-color: #ff9800;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 160px;
+  box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
+}
+
+button:hover {
+  background-color: #e68a00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+}
+
+#installBtn {
+  margin-bottom: 20px;
+  background-color: #4CAF50;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+#installBtn:hover {
+  background-color: #45a049;
+}
+
+/* =========================================
+   5. SECTIONS GENERAL
+   ========================================= */
+section {
+  padding: 5rem 5%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #111;
+  font-weight: 700;
+}
+
+/* ABOUT SECTION */
+.about {
+  background: #fff;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transform: translateY(-50px); /* Overlaps slightly with the hero section */
+  position: relative;
+  z-index: 10;
+  padding: 3rem 2rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff9800;
+}
+
+.about p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* =========================================
    6. FEATURES & GRIDS (Responsive layout)
    ========================================= */
 .features {
   display: grid;
+  /* Auto-fit grid creates responsive columns without media queries */
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 30px;
   padding-top: 1rem;
@@ -34,87 +243,121 @@
   color: #666;
 }
 
-/* =========================================
-   SERVICE & REQUEST CARDS (Matching Screenshot)
-   ========================================= */
+/* SERVICE & REQUEST LISTS (Empty containers for JS) */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-  padding: 2rem 0;
 }
 
-/* Card Container */
+/* Styles for the JS-injected cards inside #serviceList and #requestList */
 .grid > div {
   background: #fff;
-  padding: 1.5rem 2rem;
+  padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   transition: 0.3s ease;
-  /* Thick black border to match the design */
-  border-left: 8px solid #111; 
+  border-left: 5px solid #111;
+  /* ADDED: Flexbox to strictly organize the card content */
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .grid > div:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-  border-left-color: #ff9800; /* Subtle orange touch on hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #ff9800;
 }
 
-/* Card Typography Alignment */
-.grid > div h3 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 12px;
-}
-
+/* ADDED: Proper spacing for the text inside the cards */
+.grid > div h3, 
 .grid > div p {
-  font-size: 0.95rem;
-  color: #444;
-  margin-bottom: 6px;
-  line-height: 1.4;
+  margin-bottom: 8px;
+  width: 100%;
 }
 
-.grid > div p strong {
-  font-weight: 600;
-  color: #111;
-}
-
-.grid > div .status {
-  margin: 8px 0 15px;
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* Button Group Stack Alignment */
-.grid > div .button-group {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start; /* Aligns buttons nicely to the left */
-  margin-top: auto; /* Pushes buttons to the bottom if text varies in height */
-}
-
-/* Specific Card Button Styles */
-.grid > div .button-group button {
-  display: flex;
+/* ADDED: Fix for the jagged, misaligned buttons */
+.grid > div button {
+  width: 100%; /* Forces all buttons to span the full width of the card evenly */
+  margin: 10px 0 0 0; /* Creates clean spacing between stacked buttons */
+  display: flex; /* Aligns icons and text neatly inside the button */
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  background-color: #ff9800;
-  color: #fff;
-  font-size: 0.9rem;
-  padding: 10px 18px;
-  border-radius: 8px;
-  min-width: 180px; /* Keeps the stacked buttons a uniform size */
-  box-shadow: 0 2px 6px rgba(255, 152, 0, 0.2);
-  margin: 0; /* Resets base button margins */
+  gap: 8px;
 }
 
-.grid > div .button-group button:hover {
-  background-color: #e68a00;
-  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+/* Optional: Adds a bit more space above the very first button */
+.grid > div button:first-of-type {
+  margin-top: 15px; 
+}
+
+/* =========================================
+   7. FOOTER
+   ========================================= */
+footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 2.5rem 5%;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+/* =========================================
+   8. ANIMATIONS
+   ========================================= */
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.delay {
+  animation-delay: 0.3s;
+}
+
+.delay2 {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================================
+   9. MOBILE RESPONSIVENESS TWEAKS
+   ========================================= */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 1.5rem;
+  }
+  
+  .navbar ul {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about {
+    transform: translateY(-20px);
+    margin: 0 5%;
+  }
+  
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  input, select, button {
+    width: 100%;
+  }
 }
