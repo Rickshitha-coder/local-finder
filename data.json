@@ -1,35 +1,35 @@
 [
   {
-    "name": "Sri Vinayaga Electricals",
+    "name": "Sss Electrician Services",
     "service": "electrician",
-    "phone": "9840012345",
+    "phone": "97903 46848",
     "rating": 4.3,
     "lat": 13.0827,
     "lng": 80.2707,
     "available": true
   },
   {
-    "name": "Smart Electric Works",
+    "name": "Spark Electrical Works",
     "service": "electrician",
-    "phone": "9090909090",
+    "phone": "7358676760",
     "rating": 4.4,
     "lat": 13.0670,
     "lng": 80.2500,
     "available": false
   },
   {
-    "name": "Bright Spark Electric",
+    "name": "KVA electrical works",
     "service": "electrician",
-    "phone": "9444011122",
+    "phone": "98842 24141",
     "rating": 4.6,
     "lat": 13.0500,
     "lng": 80.2300,
     "available": true
   },
   {
-    "name": "PowerFix Electricians",
+    "name": "IL engineering work",
     "service": "electrician",
-    "phone": "9841122233",
+    "phone": "90470 12596",
     "rating": 4.5,
     "lat": 13.0900,
     "lng": 80.2800,
@@ -37,7 +37,7 @@
   },
 
   {
-    "name": "Mahalakshmi Electrical Plumbers",
+    "name": "Mahalakshmi Electrical Plumber",
     "service": "plumber",
     "phone": "9035084964",
     "rating": 4.2,
@@ -46,27 +46,27 @@
     "available": true
   },
   {
-    "name": "Suresh Plumbing Works",
+    "name": " V Suresh Plumbing Works",
     "service": "plumber",
-    "phone": "9884567890",
+    "phone": "80981 84456",
     "rating": 4.3,
     "lat": 13.0600,
     "lng": 80.2200,
     "available": false
   },
   {
-    "name": "Aqua Flow Plumbing",
+    "name": "Chennai plumber",
     "service": "plumber",
-    "phone": "9098765432",
+    "phone": "8122033303",
     "rating": 4.2,
     "lat": 13.0800,
     "lng": 80.2600,
     "available": true
   },
   {
-    "name": "PipeCare Plumbing",
+    "name": "Ready Bro",
     "service": "plumber",
-    "phone": "9500012345",
+    "phone": "8122210023",
     "rating": 4.5,
     "lat": 13.0950,
     "lng": 80.2750,
@@ -74,36 +74,36 @@
   },
 
   {
-    "name": "Cool Tech AC Repair",
+    "name": "AtoZ Service World",
     "service": "ac repair",
-    "phone": "9123456789",
+    "phone": "89393 25325",
     "rating": 4.6,
     "lat": 13.0500,
     "lng": 80.2500,
     "available": true
   },
   {
-    "name": "Chill Air AC Services",
+    "name": "Sri Tirupathi air-conditioning",
     "service": "ac repair",
-    "phone": "9360011223",
+    "phone": "89255 77504",
     "rating": 4.5,
     "lat": 13.0450,
     "lng": 80.2400,
     "available": false
   },
   {
-    "name": "Cool Breeze AC Repair",
+    "name": "Spectra AC Solutions",
     "service": "ac repair",
-    "phone": "9845671234",
+    "phone": "94445 00050",
     "rating": 4.3,
     "lat": 13.0700,
     "lng": 80.2550,
     "available": true
   },
   {
-    "name": "Fresh Air Cooling",
+    "name": "AC SERVICE IN CHENNAI",
     "service": "ac repair",
-    "phone": "9001234567",
+    "phone": "94441 52424",
     "rating": 4.6,
     "lat": 13.0850,
     "lng": 80.2650,
@@ -111,18 +111,18 @@
   },
 
   {
-    "name": "Metro Electric Services",
-    "service": "electrician",
-    "phone": "9788888888",
+    "name": "Expert Cooling Solution",
+    "service": "ac repair",
+    "phone": "90432 56007",
     "rating": 4.2,
     "lat": 13.1000,
     "lng": 80.2900,
     "available": true
   },
   {
-    "name": "Urban Electric Care",
+    "name": "JANAKI ELECTRICALS",
     "service": "electrician",
-    "phone": "9551123456",
+    "phone": "9841987447",
     "rating": 4.1,
     "lat": 13.0750,
     "lng": 80.2450,
@@ -130,18 +130,18 @@
   },
 
   {
-    "name": "Rapid Plumbing Solutions",
+    "name": "K.S. Enterprises",
     "service": "plumber",
-    "phone": "9445566778",
+    "phone": "9940643297",
     "rating": 4.3,
     "lat": 13.0850,
     "lng": 80.2700,
     "available": true
   },
   {
-    "name": "Perfect Flow Plumbing",
+    "name": "Abhi Vairavan Plumbing Co",
     "service": "plumber",
-    "phone": "9622334455",
+    "phone": "99625 44444",
     "rating": 4.1,
     "lat": 13.0950,
     "lng": 80.2850,
@@ -149,9 +149,9 @@
   },
 
   {
-    "name": "AirCare Technicians",
+    "name": "POWER COOLING SYSTEMS",
     "service": "ac repair",
-    "phone": "9447788990",
+    "phone": "73388 27001",
     "rating": 4.5,
     "lat": 13.0600,
     "lng": 80.2500,
@@ -168,36 +168,36 @@
   },
   
   {
-    "name": "Elite Electrical Solutions",
+    "name": "Thambi Aircon",
     "service": "electrician",
-    "phone": "9677012345",
+    "phone": "80157 77712",
     "rating": 4.4,
     "lat": 13.1100,
     "lng": 80.3000,
     "available": true
   },
   {
-    "name": "HomeFix Electricians",
+    "name": "Lakshman Electrical work",
     "service": "electrician",
-    "phone": "9000012345",
+    "phone": "76959 85926",
     "rating": 4.2,
     "lat": 13.0400,
     "lng": 80.2100,
     "available": false
   },
   {
-    "name": "City Light Electricals",
+    "name": "IL engineering work",
     "service": "electrician",
-    "phone": "9789012345",
+    "phone": "90470 12596",
     "rating": 4.0,
     "lat": 13.0550,
     "lng": 80.2250,
     "available": true
   },
   {
-    "name": "Prime Electrical Care",
+    "name": "Sai Electricial Works",
     "service": "electrician",
-    "phone": "9666612345",
+    "phone": "9962176209",
     "rating": 4.5,
     "lat": 13.1200,
     "lng": 80.3100,
@@ -205,36 +205,36 @@
   },
 
   {
-    "name": "FastFix Plumbing Services",
+    "name": "Surndaran Electrical And Plumbing Work",
     "service": "plumber",
-    "phone": "9345678901",
+    "phone": "90805 01915",
     "rating": 4.4,
     "lat": 13.0650,
     "lng": 80.2400,
     "available": true
   },
   {
-    "name": "City Drain Experts",
+    "name": "Sri Maha Lakshmi Plumbing Works",
     "service": "plumber",
-    "phone": "9786512345",
+    "phone": "98407 56173",
     "rating": 4.0,
     "lat": 13.0350,
     "lng": 80.2000,
     "available": false
   },
   {
-    "name": "Quick Pipe Fix",
+    "name": "Manickam plumbing services",
     "service": "plumber",
-    "phone": "9345012345",
+    "phone": "91716 20578",
     "rating": 4.2,
     "lat": 13.0850,
     "lng": 80.2600,
     "available": true
   },
   {
-    "name": "WaterLine Experts",
+    "name": "Janani Electrical & Plumbing Works",
     "service": "plumber",
-    "phone": "9789001122",
+    "phone": "95430 12988",
     "rating": 4.4,
     "lat": 13.1000,
     "lng": 80.2900,
@@ -251,27 +251,27 @@
     "available": true
   },
   {
-    "name": "Arctic Chill Services",
+    "name": "MR COOL CENTRE",
     "service": "ac repair",
-    "phone": "9556677889",
+    "phone": "77085 54626",
     "rating": 4.2,
     "lat": 13.0300,
     "lng": 80.1900,
     "available": false
   },
   {
-    "name": "AC Master Service",
+    "name": "SRI SAI RAM AIR CONDITIONER",
     "service": "ac repair",
-    "phone": "9654321098",
+    "phone": "98408 67273",
     "rating": 4.6,
     "lat": 13.0950,
     "lng": 80.2800,
     "available": true
   },
   {
-    "name": "FreezeCool AC Works",
+    "name": "Dhanu Air Conditions",
     "service": "ac repair",
-    "phone": "9123001122",
+    "phone": "98419 25309",
     "rating": 4.3,
     "lat": 13.0700,
     "lng": 80.2550,
@@ -279,55 +279,36 @@
   }
   ,
 {
-  "name": "GreenField Electric Services",
+  "name": "Naren Electricals & Plumbing",
   "service": "electrician",
-  "phone": "9880011223",
+  "phone": "81222 72429",
   "rating": 4.5,
   "lat": 13.1150,
   "lng": 80.3050,
   "available": true
 },
 {
-  "name": "Sunrise Electrical Works",
-  "service": "electrician",
-  "phone": "9790011223",
-  "rating": 4.2,
-  "lat": 13.0300,
-  "lng": 80.2100,
-  "available": false
-},
-{
-  "name": "MegaVolt Electricians",
-  "service": "electrician",
-  "phone": "9845511223",
-  "rating": 4.6,
-  "lat": 13.0950,
-  "lng": 80.2850,
-  "available": true
-},
-
-{
-  "name": "BluePipe Plumbing",
+  "name": "PLUMBING SERVICES & WORK",
   "service": "plumber",
-  "phone": "9345612345",
+  "phone": "96771 95641",
   "rating": 4.3,
   "lat": 13.0750,
   "lng": 80.2500,
   "available": true
 },
 {
-  "name": "RapidFlow Plumbers",
+  "name": "Nikhil Plumbers Chennai",
   "service": "plumber",
-  "phone": "9003412345",
+  "phone": "93458 41172",
   "rating": 4.1,
   "lat": 13.0450,
   "lng": 80.2300,
   "available": false
 },
 {
-  "name": "AquaFix Experts",
+  "name": "Thirupathi Borewells, plumbing",
   "service": "plumber",
-  "phone": "9789812345",
+  "phone": "90923 72735",
   "rating": 4.4,
   "lat": 13.0850,
   "lng": 80.2700,
@@ -335,27 +316,27 @@
 },
 
 {
-  "name": "CoolCare AC Solutions",
+  "name": "Fawaz Aircon",
   "service": "ac repair",
-  "phone": "9123412345",
+  "phone": "90870 10786",
   "rating": 4.5,
   "lat": 13.0650,
   "lng": 80.2450,
   "available": true
 },
 {
-  "name": "AirFlow AC Experts",
+  "name": "Sai AC Services & Welding",
   "service": "ac repair",
-  "phone": "9567812345",
+  "phone": "96770 40440",
   "rating": 4.2,
   "lat": 13.0350,
   "lng": 80.2150,
   "available": false
 },
 {
-  "name": "CoolZone Technicians",
+  "name": "N R AIR SERVICES",
   "service": "ac repair",
-  "phone": "9898712345",
+  "phone": "91766 72666",
   "rating": 4.6,
   "lat": 13.1000,
   "lng": 80.2950,
